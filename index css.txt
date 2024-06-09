@@ -1,0 +1,49 @@
+
+/*agregar al index.css*/
+
+
+
+/*barra de busqueda*/
+/* Estilos generales para el contenedor de búsqueda */
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 2px;
+    background-color: black;
+    
+  }
+  
+  /* Estilos para el campo de entrada */
+  .search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+  }
+
+
+  .container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-search {
+    flex-grow: ;/* Ajusta este valor según sea necesario */
+    margin-right: ; /* Ajusta este valor según sea necesario */
+}
+
+.search-input {
+    width: 400px; /* Cambia el ancho según sea necesario */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
