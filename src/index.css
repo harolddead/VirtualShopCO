@@ -453,3 +453,34 @@ header {
   background-color: red;
   border-radius: 0;
 }
+
+/* Codigo del Buscador */
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin: 1rem 0;
+}
+
+#buscar {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+#lupa {
+  position: absolute;
+  right: 50px; /* Ajusta esta posición según sea necesario */
+  font-size: 1.2rem;
+  color: #888;
+  cursor: pointer;
+}
+
+#buscar:focus {
+  border-color: #007bff;
+  outline: none;
+}
